@@ -9,3 +9,20 @@ id,title,artist,genre,mood,energy,tempo_bpm,valence,danceability,acousticness
 8,Night Drive Loop,Neon Echo,synthwave,moody,0.75,110,0.49,0.73,0.22
 9,Focus Flow,LoRoom,lofi,focused,0.40,80,0.59,0.60,0.78
 10,Rooftop Lights,Indigo Parade,indie pop,happy,0.76,124,0.81,0.82,0.35
+11,Moonlit Reverie,Aurora Quartet,classical,melancholic,0.22,66,0.15,0.20,0.92
+12,Rage Engine,Iron Pulse,metal,aggressive,0.95,160,0.12,0.35,0.02
+13,Sunset Reggae,Vibes & Roots,reggae,nostalgic,0.68,95,0.70,0.65,0.60
+14,Maple Road,Old Timber,folk,reflective,0.45,84,0.60,0.50,0.85
+15,Neon Circuit,Synth Bazaar,electronic,dreamy,0.66,124,0.55,0.72,0.18
+16,Delta Blues,Blue Harbor,blues,romantic,0.40,78,0.58,0.52,0.80
+17,City Pulse,RhymeSmith,hip hop,energetic,0.88,100,0.63,0.80,0.12
+18,Desert Winds,Natasha K,world,meditative,0.30,68,0.50,0.40,0.90
+id,title,artist,genre,mood,energy,tempo_bpm,valence,danceability,acousticness
+19,Blue Midnight,The Crescent,jazz,sad,0.33,72,0.25,0.45,0.85
+20,Iron Tempest,Steelforge,metal,angry,0.96,170,0.12,0.30,0.02
+21,Moonlight Sonata II,Auric Ensemble,classical,romantic,0.18,64,0.60,0.09,0.99
+22,Satin Nights,Lyra Soul,r&b,romantic,0.62,88,0.78,0.74,0.38
+23,Backroad Story,Willow Road,country,nostalgic,0.48,100,0.55,0.50,0.70
+24,Zero Focus,Neuro Drift,electronic,focused,0.42,120,0.58,0.66,0.30
+25,City Lights,Metro Verse,hip hop,confident,0.85,102,0.62,0.81,0.10
+26,Harbor Lull,Maple & Stone,folk,calm,0.30,70,0.50,0.40,0.88
