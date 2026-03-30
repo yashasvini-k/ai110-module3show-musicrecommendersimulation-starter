@@ -144,6 +144,35 @@ Use this section to document the experiments you ran. For example:
 ### Terminal Output — Default Profile (Pop / Happy)
 
 ![Terminal Output](terminal-output.png)
+![Terminal Output](terminal-output-screenshot.png)
+
+**Screenshot 1 — All three profiles (original weights):**
+
+![All three profiles](screenshots/terminal-output.png)
+
+**Screenshot 2 — Weight experiment (doubled energy):**
+
+![Weight experiment](screenshots/terminal-output-exp.png)
+
+**Screenshot 3 — Restored original weights:**
+
+![Restored weights](screenshots/terminal-output-screenshot.png)
+
+### Profile Results
+
+**High-Energy Pop:** The top results matched upbeat pop songs with high energy and happy mood as expected.
+
+**Chill Lofi:** Results shifted toward low-energy tracks. *(Note anything surprising here.)*
+
+**Deep Intense Rock:** Results favored high-energy rock. *(Note anything surprising here.)*
+
+### Weight Experiment
+
+I temporarily doubled the energy weight from 1.0 to 2.0 and halved the genre weight from 2.0 to 1.0.
+
+**What changed:** *(Describe whether the rankings shifted significantly or stayed mostly the same.)*
+
+**What this tells us:** When genre weight dominates, songs from the matching genre always bubble to the top regardless of other features. Increasing energy weight made the system more sensitive to vibe, sometimes surfacing songs from non-matching genres that felt more musically appropriate.
 
 ### Algorithm Recipe
 
@@ -193,5 +222,6 @@ Write 1 to 2 paragraphs here about what you learned:
 - about how recommenders turn data into predictions
 - about where bias or unfairness could show up in systems like this
 
+Building this project showed me how directly a simple weighting decision shapes what gets recommended. Even with only four features and a small catalog, the system produces results that feel like real recommendations — which made it easier to understand how platforms like Spotify are doing the same thing at a much larger scale. The biggest risk I identified is that genre dominates the score, meaning a song that perfectly matches a user's energy and mood but belongs to the wrong genre will almost always rank below a mediocre genre match. In a real product this could quietly push users into a narrow slice of music without them realizing it.
 
 ---

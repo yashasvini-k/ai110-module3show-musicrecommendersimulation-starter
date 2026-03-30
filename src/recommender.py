@@ -136,8 +136,7 @@ def score_song(user: UserProfile, song: Song) -> Tuple[float, str]:
 
 
 def score_song_from_prefs(user_prefs: Dict, song: Dict) -> Tuple[float, str]:
-   """Score a dict-based song against dict-based user prefs. Returns (score, explanation)."""
-    # Mirror the same scoring logic as score_song
+    """Score a song represented as a dict using a user_prefs dict."""
     genre_w = 2.0
     mood_w = 1.0
     energy_w = 1.0
